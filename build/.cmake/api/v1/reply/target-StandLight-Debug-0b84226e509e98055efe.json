@@ -1,0 +1,364 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "StandLight"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/hw/Button"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/hw/Led"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/hw/Clock_Check"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/hw/LCD"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/hw/I2C"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/hw/DHT11"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/hw/UltraSonic"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/hw/PWM"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/listener"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/Controler"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/View"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/View/Clock_View"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/View/TH_View"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/View/Sonic_View"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/View/Motor_View"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/Service"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/Service/Clock_Service"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/Service/TH_Service"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/Service/Sonic_Service"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ubuntu/project/StandLight_PWM/./source/app/Service/Motor_Service"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"id" : "StandLight::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lwiringPi",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "StandLight",
+	"nameOnDisk" : "StandLight",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hw/Button/Button.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hw/Led/Led.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hw/Clock_Check/Clock_Check.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hw/LCD/LCD.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hw/I2C/I2C.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hw/DHT11/DHT11.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hw/UltraSonic/UltraSonic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/hw/PWM/PWM.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/listener/Listener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/Controler/Controler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/View/View.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/View/Clock_View/Clock_View.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/View/TH_View/TH_View.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/View/Sonic_View/Sonic_View.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/View/Motor_View/Motor_View.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/Service/Service.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/Service/Clock_Service/Clock_Service.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/Service/TH_Service/TH_Service.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/Service/Sonic_Service/Sonic_Service.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/app/Service/Motor_Service/Motor_Service.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
